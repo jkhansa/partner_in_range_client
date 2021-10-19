@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup ,Circle,LayerGroup,Polyline } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup ,Circle,Polyline } from 'react-leaflet';
 import { LatLngTuple } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import redIconURL from "./images/marker-icon-2x-red.png";
