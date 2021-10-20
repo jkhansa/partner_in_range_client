@@ -16,7 +16,6 @@ function partnerTableBodyRow(partner:partnerJSON)
 
   let googleMapLink="https://maps.google.com/?q="+partner.coordinates;
   return <tr>
-  <td>{partner.id}</td>
   <td>{partner.organization}</td>
   <td><a href={partner.website} target="_blank" rel="noopener noreferrer">{partner.website}</a></td>
   <td>{partner.address}</td>
@@ -32,7 +31,6 @@ const partnerTableBody = props.partners.map((partner:partnerJSON) => partnerTabl
     <table className="table table-hover table-bordered">
     <thead>
       <tr>
-        <th>ID</th>
         <th>Organization</th>
         <th>Website</th>
         <th>Address</th>
