@@ -39,7 +39,7 @@ return (
 
 <div className="container">
   <div className="jumbotron text-center">
-  <h1>Partner in Range</h1>
+  <h1>Partners in Range</h1>
   <PartnerForm  partners={partnerList}
    setpartners={setPartnerList}
    lat={lat}
